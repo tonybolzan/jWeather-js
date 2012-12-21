@@ -1,0 +1,50 @@
+﻿@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.weatherFeed {
+	text-align: center;
+	font-size: 90%;
+	width: 178px;
+	text-shadow: 1px 0 0 #aaa;
+	margin: 0;
+	padding: 0;
+}
+.weatherFeed a {
+	color: #888;
+}
+
+.weatherFeed a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+
+.weatherCity {
+	padding: 120px 0 0 0;
+	text-transform: uppercase;
+}
+
+.weatherTemp {
+	color: #3e4930;
+	font-size: 2.8em;
+	font-weight: bold;
+}
+.weatherDesc, .weatherCity {
+	font-weight: bold;
+}
+
+.weatherDesc {
+	margin-bottom: 0.4em;
+}
+
+.weatherRange, .weatherWind {
+	font-size: 0.8em;
+}
+
+.weatherLink {
+	font-size: 0.8em;
+}
